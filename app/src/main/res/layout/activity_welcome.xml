@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewFlipper"
+        android:layout_gravity="center_horizontal">
+        <include android:id="@+id/firstViewFlipper" layout="@layout/first">
+
+        </include>
+        <include android:id="@+id/secondViewFlipper" layout="@layout/second">
+
+        </include>
+        <include android:id="@+id/thirdViewFlipper" layout="@layout/third">
+
+        </include>
+        <include android:id="@+id/fourthViewFlipper" layout="@layout/fourth">
+
+        </include>
+    </ViewFlipper>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button"
+
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp"
+        android:onClick="login"
+        android:layout_marginBottom="60dp"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+</FrameLayout>

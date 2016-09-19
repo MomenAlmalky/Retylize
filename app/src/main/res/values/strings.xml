@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Retylize</string>
+    <string name="collect">discover
+        in-store shopping patterns, dwell times and trends.</string>
+    <string name="process">high-performance analytics
+        engine process .</string>
+    <string name="visualize">platform
+        to view your store data instantly.</string>
+    <string name="Insights">
+        improve strategies to increase brand profitability.</string>
+    <string-array name="sppinerElements">
+        <item>today</item>
+        <item>this_week</item>
+        <item>this_month</item>
+        <item>Data Range</item>
+    </string-array>
+</resources>

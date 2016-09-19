@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="35sp"
+        android:text="500"
+        android:id="@+id/TextViewCount"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="Count"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="100"
+        android:layout_marginTop="100dp"
+        android:id="@+id/TextViewConversion"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="18dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:text="Conversion"
+        android:id="@+id/textView3"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        />
+
+</FrameLayout>
